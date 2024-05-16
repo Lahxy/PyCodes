@@ -1,0 +1,1 @@
+a=input('diga uma palavra e eu verificarei se é um palíndromo: ')

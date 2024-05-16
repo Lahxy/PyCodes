@@ -1,0 +1,2 @@
+m=int(input('digite a quantidade de metros para a conversão: '))
+print(f'{m} metro(s) equivale(m) a:\n{m/1000} quilômetros\n{m/100} hectômetros\n{m/10} decâmetros\n{m*10} decímetros\n{m*100} centímetros e\n{m*1000} milímetros')

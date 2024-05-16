@@ -1,0 +1,8 @@
+frase=input('DIGA UMA FRASE PARA A ANÁLISE: ').upper().strip()
+letra=input('DIGA A LETRA PARA ENCONTRAR NA FRASE: ').upper()
+letra_apr=frase.count(letra)
+print(f'\nA LETRA "{letra}" APARECE {letra_apr} vezes')
+letra_pos=frase.find(letra)
+print(f'\nA LETRA "{letra}" APARECE INICIALMENTE NA {letra_pos+1}° POSIÇÃO')
+letra_pos_inv=frase.rfind(letra)
+print(f'A LETRA "{letra}" APARECE POR ÚLTIMO NA {letra_pos_inv+1}° POSIÇÃO')
